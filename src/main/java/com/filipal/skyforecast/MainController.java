@@ -41,7 +41,7 @@ import java.util.Locale;
  */
 public class MainController {
 
-    private static final String API_KEY = "751e5f788a44c697b96800f90a83c52f";
+    private static final String API_KEY = "YOUR_API_KEY_HERE";
     private static final String GEO_API_URL = "http://api.openweathermap.org/geo/1.0/direct";
     private static final String WEATHER_API_URL = "https://api.openweathermap.org/data/3.0/onecall";
 
