@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.filipal.skyforecast.HistoryController">
+  <TableView fx:id="historyTable" stylesheets="@../../../application.css">
+    <columns>
+      <TableColumn fx:id="locationColumn" text="Location" />
+      <TableColumn fx:id="timestampColumn" text="Timestamp" />
+      <TableColumn fx:id="temperatureColumn" text="Temperature" />
+      <TableColumn fx:id="conditionsColumn" text="Conditions" />
+    </columns>
+      <styleClass>
+         <String fx:value="table-view" />
+         <String fx:value="table-column" />
+      </styleClass>
+  </TableView>
+</VBox>

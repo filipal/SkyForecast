@@ -1,0 +1,127 @@
+/* Default styles for static labels */
+.static-label {
+    -fx-text-fill: black; /* Default color for day mode */
+}
+
+/* Night mode styles for static labels */
+.root.night-mode .static-label {
+    -fx-text-fill: white; /* Color for night mode */
+}
+
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-padding:0px;
+    -fx-border-color:linear-gradient(to bottom right, #2d658c, #2ca772);
+    -fx-border-width:2px;
+    -fx-border-radius:8px;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #2d658c, #2ca772);
+    -fx-background-radius:8px 8px 0px 0px;
+    -fx-background-inset: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size:40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+
+
+
+/* Common style for buttons, text fields, and combo boxes */
+.common-style {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 0);
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+    -fx-min-height: 30px; /* Set a common height */
+    -fx-pref-height: 30px; /* Set a common preferred height */
+}
+
+/* Additional style for buttons */
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 0);
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style for combo boxes */
+.combo-box {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 0);
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+
+}
+
+.combo-box .list-cell:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-text-fill: white;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: white;
+}
+
+/* Style for labels */
+.label {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 0);
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+}
